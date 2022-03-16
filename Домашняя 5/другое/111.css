@@ -1,0 +1,94 @@
+*{margin: 0; padding: 0;}
+body{
+	font-family: "Open-Sans";
+	font-size: 20px;
+}
+header{
+	background: #ffffff;
+	min-height: 100px;
+}
+header h1{
+	font-size: 2rem;
+	font-weight: 700;
+	color: aqua;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	min-width: 480px;
+	margin: 0 auto;
+}
+.wrapper1{
+	text-align: center;
+	height: 100%;
+	background: url(/Img/img5.png) 0 0 no-repeat;
+	background-position: center;
+	background-size: fit;
+	padding: calc(175/16*1rem) 0 calc(180/16*1rem);
+}
+.wrapper1 h1{
+	text-decoration: underline;
+	color: #fff;
+	font-size: calc(40/16*1rem);
+	line-height: 1.5;
+}
+.wrapper1 h4{
+	color: #fff;
+	text-transform: uppercase;
+	padding: calc(32/1616*1rem) 0 0;
+	line-height: 2;
+}
+.wrapper2{
+	background: #fff;
+	color: blue;
+	min-height: 120px;
+	text-align: center;
+}
+.wrapper2 h2{
+	font-size: calc(34/16*1rem);
+}
+.wrapper2 h4{
+	font-size: calc(24/16*1rem);
+}
+.wrapper3{
+	padding: 50px 0 50px;
+	background: brown;
+}
+.wrapper ul{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	text-align: center;
+	color: chocolate;
+}
+.wrapper3 li{
+	display: inline-block;
+	width: 25%;
+}
+.wrapper3 ul li img{
+	display: inline-block;
+}
+.wrapper3 ul li h3{
+	font-size: calc(22/1rem*1rem);
+	padding: 15px 0 21px;
+	font-weight: bold;
+}
+.wrapper3 ul li h5{
+	font-size: calc(14/1rem*1rem);
+	width: calc(192/1920*100vw);
+	margin: 0 auto;
+	padding-bottom: 20px;
+	font-weight: normal;
+}
+
+
+
+
+
+/* 
+@media screen and (max-width 800px){
+	.folios{
+		flex-direction: column;
+	}
+} */
